@@ -1,8 +1,10 @@
-import { Inter } from "next/font/google";
+import { Barlow } from "next/font/google";
 import "./globals.css";
 import Header from "@/layout/Header";
+import Footer from "@/layout/Footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// Specify the weight you want to use, e.g., '400' for regular
+const inter = Barlow({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Create Next App",
@@ -16,6 +18,8 @@ export default function RootLayout({ children }) {
         <main>
           <Header />
           {children}
+          <Footer />
+          
         </main>
       </body>
     </html>
