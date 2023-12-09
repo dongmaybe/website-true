@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { useTranslations } from "next-intl";
 import logoImg from "public/image/logo_img.png";
 import BenefitImage from "public/image/benefit_img.svg";
 import logoNameImage from "public/image/LogoName_img.svg";
