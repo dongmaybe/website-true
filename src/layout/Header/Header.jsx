@@ -29,7 +29,7 @@ const Header = () => {
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
   return (
     <nav class="py-[12px] bg-[#F9F0EC] border-b-2 md:border-b-0 shadow-lg">
-      <div class="container px-4 mx-auto md:flex md:items-center">
+      <div class="container mx-auto md:flex md:items-center">
         <div class="flex justify-between items-center">
           <div className="w-[114px] h-[31px] md:w-[180px] md:h-[auto] lg:w-[231px] lg:h-[60px]">
             <Image
