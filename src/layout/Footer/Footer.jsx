@@ -1,4 +1,3 @@
-import Contact_infomation from "@/layout/Footer/Contact/Contact_infomation";
 import Image from "next/image";
 import React from "react";
 

@@ -1,6 +1,6 @@
 import { Barlow } from "next/font/google";
 import "./globals.css";
-import Header from "@/layout/Header";
+import Header from "@/layout/Header/Header";
 import Footer from "@/layout/Footer/Footer";
 
 // Specify the weight you want to use, e.g., '400' for regular
@@ -19,7 +19,6 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
-          
         </main>
       </body>
     </html>
