@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper/modules";
+import FooterForm from "@/layout/Footer/FooterForm";
 
 // Component Footer
 const Footer = () => {
@@ -111,29 +112,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex-1 font-[poppins] text-base font-normal leading-6 text-[#919EAB] flex  flex-col gap-6 w-[50%] p-[30px] rounded-lg">
-              <input
-                type="text"
-                placeholder="Họ và Tên"
-                className=" bg-[#919EAB14] m-10px rounded-lg"
-              />
-              <input
-                type="text"
-                placeholder="Email của bạn"
-                className=" bg-[#919EAB14] m-10px rounded-lg"
-              />
-              <input
-                type="text"
-                placeholder="Sô điện thoại"
-                className=" bg-[#919EAB14] m-10px rounded-lg"
-              />
-              <input
-                type="text"
-                placeholder="Ghi chú"
-                className=" bg-[#919EAB14] m-10px ml-15px rounded-lg"
-              />
-              <button className="inline bg-[#0DC5AE] text-white max-w-[172px]  p-30px rounded-lg">
-                gửi thông tin
-              </button>
+              <FooterForm />
               <div className="flex justify-end content-end  place-content-end">
                 <Image
                   src="/image/Footer/contact_infomation/IconPhone__IMG.svg"
