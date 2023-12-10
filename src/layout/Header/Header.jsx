@@ -22,15 +22,15 @@ const Header = () => {
     { name: "about", link: "/about" },
     { name: "product", link: "/services" },
     { name: "new", link: "/news" },
-    { name: "contract", link: "/contact" },
+    { name: "contact", link: "/contact" },
   ];
   const pathname = usePathname();
 
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
   return (
-    <nav class="py-[12px] bg-[#F9F0EC] border-b-2 md:border-b-0 shadow-lg">
-      <div class="container mx-auto md:flex md:items-center">
-        <div class="flex justify-between items-center">
+    <nav className="py-[12px] border-b-2 md:border-b-0 w-full">
+      <div className="container mx-auto md:flex md:items-center">
+        <div className="flex justify-between items-center">
           <div className="w-[114px] h-[31px] md:w-[180px] md:h-[auto] lg:w-[231px] lg:h-[60px]">
             <Image
               src={logoImg}
@@ -41,7 +41,7 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-1">
             <button
-              class="hover:opacity-75 md:hidden"
+              className="hover:opacity-75 md:hidden"
               id="navbar-toggle"
               onClick={() => setOpenMenuMobile(!openMenuMobile)}
             >
@@ -63,7 +63,7 @@ const Header = () => {
               )}
             </button>
             <button
-              class="hover:opacity-75 md:hidden p-2"
+              className="hover:opacity-75 md:hidden p-2"
               id="navbar-toggle"
               onClick={() => {}}
             >
@@ -78,7 +78,7 @@ const Header = () => {
         </div>
 
         <div
-          class={`${
+          className={`${
             openMenuMobile ? "flex" : "hidden"
           } md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 md:gap-4 lg:gap-6`}
           id="navbar-collapse"
@@ -88,7 +88,7 @@ const Header = () => {
               <Link
                 Link
                 href={menu.link}
-                class={`font-poppins text-base md:text-sm lg:text-xl font-semibold leading-normal py-2 md:border-b-0 hover:text-[#FF0054]/80 hover:bg-[#ffc8001f] md:hover:bg-transparent ${
+                className={`font-poppins text-base md:text-sm lg:text-xl font-semibold leading-normal py-2 md:border-b-0 hover:text-[#FF0054]/80 hover:bg-[#ffc8001f] md:hover:bg-transparent ${
                   pathname === menu.link ? "text-[#FF0054]" : ""
                 }`}
                 key={menu.link}

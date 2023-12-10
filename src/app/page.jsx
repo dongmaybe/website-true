@@ -35,12 +35,12 @@ const Home = () => {
               height={82}
               alt="Picture of the author"
             />
-            <div class="text-justify font-lexend text-base font-normal font-weight-400 leading-7">
+            <div className="text-justify font-lexend text-base font-normal font-weight-400 leading-7">
               Nền tảng mở nhằm mục đích dễ dàng cho các đơn vị phát triển ứng
               dụng khác có thể tích hợp và đẩy sản phẩm lên nền tảng TrueConnect
               và có cơ hội tiếp cận tập khách hàng rộng mở của hệ thống.
             </div>
-            <div class="flex p-8 items-center rounded-9 bg-common-01-white p-2px  bg-[#F9F0EC] rounded-sm">
+            <div className="flex p-8 items-center rounded-9 bg-common-01-white p-2px  bg-[#F9F0EC] rounded-sm">
               <input type="text" />
               <Image
                 src={IconseachImage}
@@ -73,7 +73,7 @@ const Home = () => {
             alt="Picture of the author"
             className="pt-[34px] max-w-[535px] "
           />
-          <div class="text-Text text-justify font-Lexend text-base font-normal font-weight-400 leading-7 mr-[99px] max-w-[575px] pt-[27px] ">
+          <div className="text-Text text-justify font-Lexend text-base font-normal font-weight-400 leading-7 mr-[99px] max-w-[575px] pt-[27px] ">
             Chúng tôi hoạt động với mong muốn thúc đẩy quá trình kinh doanh và
             vận hành của Quý khách hàng bằng việc dễ dàng tiếp cận các công cụ
             Công nghệ thông tin phục vụ hệ thống từ quy mô siêu nhỏ (cá nhân)
@@ -113,7 +113,7 @@ const Home = () => {
               <div className="ml-[30px]">Sáng tạo</div>
             </div>
           </div>
-          <div class="text-[#FF0054] font-Poppins text-base font-semibold leading-normal mt-[13px] flex justify-end  pr-[99px]">
+          <div className="text-[#FF0054] font-Poppins text-base font-semibold leading-normal mt-[13px] flex justify-end  pr-[99px]">
             Xem thêm
             <Image
               src={chevrondownImg}
@@ -152,12 +152,12 @@ const Home = () => {
       </div>
       {/* tai sao lua chon chung toi  */}
       <main>
-        <div class="text-green-900 text-center font-[Lora] text-[40px] font-bold leading-normal max-w-589 mt-[120px]">
+        <div className="text-green-900 text-center font-[Lora] text-[40px] font-bold leading-normal max-w-589 mt-[120px]">
           Tại sao nên lựa chọn chúng tôi
         </div>
         {/* noi dung */}
         <div className="mt-[69px] ml-[163px] mr-[144px] flex justify-between">
-          <div class="rounded-lg bg-white shadow-md max-w-[351px] max-h-[362px]">
+          <div className="rounded-lg bg-white shadow-md max-w-[351px] max-h-[362px]">
             <Image
               src={illustration_marketing_contactImg}
               width={220}
@@ -165,15 +165,15 @@ const Home = () => {
               alt="Picture of the author"
               className="ml-[55px] mt-[22px] mr-[64px] mb-[11px]"
             />
-            <div class="text-[#0DC5AE] font-[Lora] text-[20px] font-semibold leading-normal">
+            <div className="text-[#0DC5AE] font-[Lora] text-[20px] font-semibold leading-normal">
               Giá cả hợp lý
             </div>
-            <div class="text-Text font-Poppins text-sm font-normal leading-6">
+            <div className="text-Text font-Poppins text-sm font-normal leading-6">
               Giá thành hợp lý được cung cấp với từng mức giá, phù hợp cho mọi
               đối tượng.
             </div>
           </div>
-          <div class="rounded-lg bg-white shadow-md max-w-[351px] max-h-[362px]">
+          <div className="rounded-lg bg-white shadow-md max-w-[351px] max-h-[362px]">
             <Image
               src={Group_introduct_Img}
               width={220}
@@ -181,15 +181,15 @@ const Home = () => {
               alt="Picture of the author"
               className="ml-[55px] mt-[22px] mr-[64px] mb-[11px]"
             />
-            <div class="text-[#0DC5AE] font-[Lora] text-[20px]  text-[20px]  font-semibold leading-normal">
+            <div className="text-[#0DC5AE] font-[Lora] text-[20px]  text-[20px]  font-semibold leading-normal">
               Chất lượng đảm bảo
             </div>
-            <div class="text-Text font-[Poppins] text-sm font-normal leading-6">
+            <div className="text-Text font-[Poppins] text-sm font-normal leading-6">
               Chất lượng các sản phẩm phù hợp với giá tiền, bắt mắt và phù hợp
               với xu hướng.
             </div>
           </div>
-          <div class="rounded-lg bg-white shadow-md max-w-[351px] max-h-[362px]">
+          <div className="rounded-lg bg-white shadow-md max-w-[351px] max-h-[362px]">
             <Image
               src={illustration_benefits_Img}
               width={220}
@@ -197,10 +197,10 @@ const Home = () => {
               alt="Picture of the author"
               className="ml-[55px] mt-[22px] mr-[64px] mb-[11px]"
             />
-            <div class="text-[#0DC5AE] font-[Lora]  text-[20px]  font-semibold leading-normal">
+            <div className="text-[#0DC5AE] font-[Lora]  text-[20px]  font-semibold leading-normal">
               Mới mẻ và tiện lợi
             </div>
-            <div class="text-Text font-[Poppins] text-sm font-normal leading-6">
+            <div className="text-Text font-[Poppins] text-sm font-normal leading-6">
               Nhiều tính năng mới lạ, tiện dụng với người sử dụng.
             </div>
           </div>
@@ -212,7 +212,7 @@ const Home = () => {
           <div className="text-[40px] text-[#0DC5AE] font-[Lona] flex">
             Hệ sinh thái<div className="text-[#EF4444]"> True </div> Conect
           </div>
-          <div class="text-[#FF0054] font-Poppins text-base font-semibold leading-normal mt-[13px] flex justify-end  pr-[99px] text-[20px]">
+          <div className="text-[#FF0054] font-Poppins text-base font-semibold leading-normal mt-[13px] flex justify-end  pr-[99px] text-[20px]">
             Xem thêm
             <Image
               src={chevrondownImg}
@@ -224,22 +224,22 @@ const Home = () => {
         </div>
         <div className="mt-[-20px] ml-[40px] flex justify-between">
           <div className="mt-[44px] mr-[112px] ml-[119px]">
-            <div class="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
+            <div className="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
               Danh thiếp điện tử
             </div>
-            <div class="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
+            <div className="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
               Website mini
             </div>
-            <div class="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px] bg-[#FF5722]">
+            <div className="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px] bg-[#FF5722]">
               Web doanh nghiệp
             </div>
-            <div class="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
+            <div className="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
               Dịch vụ tư vấn Chuyển đổi số
             </div>
-            <div class="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
+            <div className="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
               Phòng CNTT thuê ngoài
             </div>
-            <div class="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
+            <div className="font-[Poppins] text-[20px] font-semibold pt-[24px] pl-[24px] pb-[18px] pr-[92px]">
               Ứng dụng cho doanh nghiệp SME
             </div>
           </div>
@@ -267,7 +267,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="text-[#FF0054] font-Poppins text-base font-semibold leading-normal mt-[13px] flex justify-end  pr-[99px] text-[20px] items-start">
+            <div className="text-[#FF0054] font-Poppins text-base font-semibold leading-normal mt-[13px] flex justify-end  pr-[99px] text-[20px] items-start">
               Xem thêm
               <Image
                 src={chevrondownImg}

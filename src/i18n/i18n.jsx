@@ -9,7 +9,7 @@ const resources = {
       product: "Products and serive",
       new: "News",
       experience: "experience",
-      contract: "contract",
+      contact: "Contact",
     },
   },
   vn: {
@@ -19,15 +19,15 @@ const resources = {
       product: "Sản phẩm và dịch vụ",
       new: "Tin tức",
       experience: "Trải nghiệm",
-      contract: "Liên hệ",
+      contact: "Liên hệ",
     },
   },
 };
 
 i18next.use(initReactI18next).init({
   resources,
-  lng: "en",
-  fallbackLng: "en",
+  lng: "vn",
+  fallbackLng: "vn",
   interpolation: {
     escapeVale: false,
   },

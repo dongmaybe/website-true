@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/layout/Header/Header";
 import Footer from "@/layout/Footer/Footer";
 import "@/i18n/i18n";
+import SectionWrapper from "@/components/SectionWrapper/SectionWrapper";
 
 const locales = ["vi", "en", "de"];
 // Specify the weight you want to use, e.g., '400' for regular
@@ -29,9 +30,11 @@ export default function RootLayout({ children }) {
     <html lang="website">
       <body className={`${poppins.variable} ${lora.variable} ${lora.barlow}`}>
         <main>
-          <Header />
+          <SectionWrapper className="bg-[#F9F0EC]  shadow-lg">
+            <Header />
+          </SectionWrapper>
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </main>
       </body>
     </html>

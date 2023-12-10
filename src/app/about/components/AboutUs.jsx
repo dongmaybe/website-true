@@ -24,16 +24,18 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="mt-[70px]">
-        <div className="w-full rounded-2xl overflow-hidden relative">
-          <Image
-            src={aboutUsImg}
-            width={1152}
-            height={648}
-            alt="Picture of the author"
-            className="w-full object-cover"
-          />
-          <div className="absolute top-0 right-0 bottom-0 p-[80px] h-full bg-gradient-to-b from-transparent to-black">
-            <h4 className="text-white font-bold text-[40px]">
+        <div className="w-full h-[670px] md:h-auto rounded-2xl overflow-hidden relative">
+          <div className="h-full">
+            <Image
+              src={aboutUsImg}
+              width={1152}
+              height={648}
+              alt="Picture of the author"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute top-0 right-0 bottom-0 left-0 md:left-1/2 p-[20px] md:p-[80px] h-full bg-gradient-to-b from-transparent to-black">
+            <h4 className="text-white font-bold text-[24px] md:text-[40px]">
               Hệ sinh thái công nghệ
             </h4>
             <p className="mt-4] text-white text-xl">

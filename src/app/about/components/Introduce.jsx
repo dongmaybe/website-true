@@ -40,7 +40,7 @@ const Introduce = () => {
           và bao gồm các sản phẩm, giải pháp và dịch vụ sau:
         </p>
       </div>
-      <div className="mt-[60px] flex justify-between">
+      <div className="mt-[60px] flex flex-col md:flex-row gap-4 justify-between">
         <div className="">
           <Image
             src={introductImg1}
@@ -71,12 +71,12 @@ const Introduce = () => {
       </div>
       <div className="mt-[48px] flex gap-[20px] flex-row text-xl font-semibold font-poppins text-[#222831]">
         <div className="flex flex-col items-center gap-5">
-          <div className="w-[4px] h-[222px] bg-[#DFDFDF] relative">
+          <div className="w-[4px] h-[222px] bg-[#DFDFDF] relative flex-1">
             <div
               className={`absolute top-[${positionTabs}%] w-[4px] h-[74px] bg-[#FF5722]`}
             ></div>
           </div>
-          <div className="text-[#10375C] text-lg opacity-[0.5] transform -rotate-90">
+          <div className="text-[#10375C] text-lg opacity-[0.5] transform -rotate-90 hidden md:block">
             {positionTabs === 0 && <span>01</span>}
             {positionTabs === 33 && <span>02</span>}
             {positionTabs === 66.66 && <span>03</span>}
