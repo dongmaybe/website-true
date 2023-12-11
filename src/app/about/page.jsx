@@ -1,4 +1,4 @@
-import AboutUs from "@/app/about/components/AboutUs";
+import AboutUs from "@/app/about/components/AboutUs/AboutUs";
 import CoreCompetencies from "@/app/about/components/CoreCompetencies/CoreCompetencies";
 import CoreValue from "@/app/about/components/CoreValue/CoreValue";
 import FoundingTeam from "@/app/about/components/FoundingTeam";

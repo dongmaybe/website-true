@@ -6,7 +6,7 @@ const SubTitle = ({ title, content }) => {
   return (
     <>
       <div className="flex">
-        <div className="w-[51px] h-[42px]">
+        <div className="w-[33px] md:w-[51px] h-[27px] md:h-[42px]">
           <Image
             src={arrowCurvedIcon}
             width={51}
@@ -15,7 +15,7 @@ const SubTitle = ({ title, content }) => {
             className="w-full object-cover"
           />
         </div>
-        <h2 className="ml-6 text-[#FF0054] text-[32px] font-semibold font-lora">
+        <h2 className="ml-2 md:ml-6 text-[#FF0054] text-[24px] md:text-[32px] font-semibold font-lora">
           {title}
         </h2>
       </div>

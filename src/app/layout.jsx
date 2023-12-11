@@ -5,6 +5,7 @@ import Header from "@/layout/Header/Header";
 import Footer from "@/layout/Footer/Footer";
 import "@/i18n/i18n";
 import SectionWrapper from "@/components/SectionWrapper/SectionWrapper";
+import { usePathname } from "next/navigation";
 
 const locales = ["vi", "en", "de"];
 // Specify the weight you want to use, e.g., '400' for regular
@@ -26,11 +27,16 @@ export const lora = Lora({
 });
 
 export default function RootLayout({ children }) {
+  const pathname = usePathname();
   return (
     <html lang="website">
       <body className={`${poppins.variable} ${lora.variable} ${lora.barlow}`}>
         <main>
-          <SectionWrapper className="bg-[#F9F0EC]  shadow-lg">
+          <SectionWrapper
+            className={`${
+              pathname === "/about" ? "bg-white" : "bg-[#F9F0EC]"
+            }  shadow-lg`}
+          >
             <Header />
           </SectionWrapper>
           {children}

@@ -5,8 +5,25 @@ import SubTitle from "@/components/SubTitle/SubTitle";
 import Tabs from "@/components/Tabs/Tabs";
 
 const VisionAndMission = () => {
+  const dataFake = [
+    {
+      id: 1,
+      content:
+        "Sản phẩm: Danh thiếp điện tử TrueConnect; Website mini tích hợp gian hàng online",
+    },
+    {
+      id: 2,
+      content:
+        "Sản phẩm: Danh thiếp điện tử TrueConnect; Website mini tích hợp gian hàng onlineGiải pháp: Quản trị doanh nghiệp (HRM, ERP)",
+    },
+    {
+      id: 3,
+      content:
+        "Dịch vụ: Dịch vụ phát triển website, dịch vụ Công nghệ thông tin cho thuê, dịch vụ quản trị, vận hành và tối ưu hệ thống (Managed Services), dịch vụ tư vấn chuyển đổi số",
+    },
+  ];
   return (
-    <div className="mt-[80px]">
+    <div className="mt-[22px] md:mt-[80px]">
       <Title title="TẦM NHÌN VÀ SỨ MỆNH" image={marketingMarketImg} />
       <div className="mt-[-30px]">
         <SubTitle
@@ -15,8 +32,8 @@ const VisionAndMission = () => {
         Quý khách hàng, Quý đối tác và xã hội bao gồm:"
         />
       </div>
-      <Tabs />
-      <div className="mt-[30px]">
+      <Tabs content={dataFake} />
+      <div className="mt-[30px] pb-4">
         <SubTitle
           title="TẦM NHÌN"
           content="Trở thành Đối tác đồng hành hàng đầu/top 1 Việt Nam về hệ sinh thái công nghệ và các giải pháp kinh doanh toàn diện, đơn giản, thống nhất dành cho cá nhân, tổ chức và doanh nghiệp thực hiện hoạt động kinh doanh."

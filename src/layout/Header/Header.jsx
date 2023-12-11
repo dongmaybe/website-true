@@ -28,7 +28,12 @@ const Header = () => {
 
   const [openMenuMobile, setOpenMenuMobile] = useState(false);
   return (
-    <nav className="py-[12px] border-b-2 md:border-b-0 w-full">
+    //
+    <nav
+      className={`${
+        pathname === "/about" ? "border-none" : "border-b-2 md:border-b-0"
+      } py-[12px] w-full`}
+    >
       <div className="container mx-auto md:flex md:items-center">
         <div className="flex justify-between items-center">
           <div className="w-[114px] h-[31px] md:w-[180px] md:h-[auto] lg:w-[231px] lg:h-[60px]">
