@@ -91,7 +91,6 @@ const Header = () => {
           {menuLinks.map((menu) => {
             return (
               <Link
-                Link
                 href={menu.link}
                 className={`font-poppins text-base md:text-sm lg:text-xl font-semibold leading-normal py-2 md:border-b-0 hover:text-[#FF0054]/80 hover:bg-[#ffc8001f] md:hover:bg-transparent ${
                   pathname === menu.link ? "text-[#FF0054]" : ""

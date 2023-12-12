@@ -8,6 +8,7 @@ import SectionWrapper from "@/components/SectionWrapper/SectionWrapper";
 import React from "react";
 
 const About = () => {
+  console.log("test");
   return (
     <main className="">
       <SectionWrapper>
@@ -25,7 +26,7 @@ const About = () => {
       <SectionWrapper>
         <CoreValue />
       </SectionWrapper>
-      <SectionWrapper className="bg-[#161C24] h-[752px] w-full mt-[80px]">
+      <SectionWrapper className="bg-[#161C24] h-auto md:h-[660px] w-full mt-[44px] md:mt-[80px] pt-[10px] md:pt-[0]">
         <FoundingTeam />
       </SectionWrapper>
     </main>

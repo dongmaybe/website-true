@@ -36,9 +36,9 @@ const CoreCompetencies = () => {
     },
   ];
   return (
-    <div className="pt-[34px] pb-[60px]">
+    <div className="pt-[34px] pb-[22px] md:pb-[60px]">
       <Title title="NĂNG LỰC CỐT LÕI" />
-      <div className="mt-[48px] grid grid-cols-1 md:grid-cols-3 gap-[40px]">
+      <div className="mt-[38px] md:mt-[48px] grid grid-cols-1 md:grid-cols-3 gap-[22px] md:gap-[40px]">
         {dataFake.map((competence) => {
           return (
             <CompetenceCard

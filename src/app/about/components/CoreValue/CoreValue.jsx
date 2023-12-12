@@ -45,7 +45,7 @@ const CoreValue = () => {
   return (
     <div className="mt-[40px]">
       <Title title={"GIÁ TRỊ CỐT LÕI"} />
-      <div className="mt-[90px] grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="mt-[38px] md:mt-[90px] grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col justify-between gap-8 md:gap-0">
           {dataFake.slice(0, 3).map((CoreValueItem) => {
             return (

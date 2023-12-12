@@ -19,7 +19,7 @@ const SubTitle = ({ title, content }) => {
           {title}
         </h2>
       </div>
-      <p className="mt-[12px] text-base text-[#212B36] font-poppins leading-[30px]">
+      <p className="mt-[12px] text-sm md:text-base text-[#212B36] font-poppins leading-[30px]">
         {content}
       </p>
     </>

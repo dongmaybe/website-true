@@ -3,7 +3,6 @@ import React, { useState } from "react";
 
 const Tabs = ({ content }) => {
   const [positionTabs, setPositionTabs] = useState(`0/${content?.length}`);
-  console.log(eval("1/2"));
   return (
     <div className="mt-[26px] md:mt-[48px] flex gap-[20px] flex-row text-sm md:text-xl font-semibold font-poppins text-[#222831]">
       <div className="flex flex-col items-center gap-5">
@@ -24,7 +23,7 @@ const Tabs = ({ content }) => {
           {content &&
             content.map((_, index) => {
               if (positionTabs === `${index}/${content.length}`) {
-                return <span>0{index + 1}</span>;
+                return <span key={index}>0{index + 1}</span>;
               }
               return null;
             })}
