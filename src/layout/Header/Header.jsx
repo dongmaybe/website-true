@@ -6,7 +6,7 @@ import englishFlagImg from "public/image/english_flag_img.png";
 import vietnamFlagImg from "public/image/vietnam_flag_img.png";
 import listMenuIcon from "public/image/list_menu_icon.svg";
 import searchIcon from "public/image/search_black_icon.svg";
-import closeIcon from "public/image/close_icon.svg";
+import closeIcon from "public/icons/close_icon.svg";
 import { LANGUAGE_VALUE } from "@/constant";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";

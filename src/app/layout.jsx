@@ -28,9 +28,34 @@ export const lora = Lora({
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
+  let GMT_ID = process.env.NEXT_PUBLIC_GMT;
+  <scrip async src={`https://www.googletagmanager.com/gtag/js?id=${GMT_ID}`} />;
+
   return (
     <html lang="website">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer =window.dataLayer||[];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js',new Data());
+                gtag('config','${GMT_ID}'),{
+                  page_path:window.location.pathnam
+                })(window,document,'script','dataLayer','${GMT_ID}');
+              `,
+          }}
+        />
+      </head>
       <body className={`${poppins.variable} ${lora.variable} ${lora.barlow}`}>
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GMT_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         <main>
           <SectionWrapper
             className={`${
@@ -40,7 +65,7 @@ export default function RootLayout({ children }) {
             <Header />
           </SectionWrapper>
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </main>
       </body>
     </html>

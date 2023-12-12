@@ -1,7 +1,7 @@
 import { Formik, useFormik } from "formik";
 import * as Yup from "yup";
 
-const FooterForm = () => {
+const ContactAgainForm = () => {
   const handleSubmit = (e) => {
     e.prevenDefault();
   };
@@ -93,4 +93,4 @@ const FooterForm = () => {
   );
 };
 
-export default FooterForm;
+export default ContactAgainForm;
