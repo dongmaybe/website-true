@@ -1,35 +1,25 @@
 import React from "react";
-import RatioOverlayImage from "public/image/RatioOverlayImage.svg";
+import RatioOverlayImage from "public/image/ratio_overlay_img.svg";
 import Image from "next/image";
-import EllipseImg from "public/image/Ellipse_img.svg";
-import Newone from "public/image/newone.svg";
-import Newtow from "public/image/newtow.svg";
-import Newthree from "public/image/newthree.svg";
-import Newfour from "public/image/newfour.svg";
+import EllipseImg from "public/image/ellipse_img.svg";
+import Newone from "public/image/new_one_img.svg";
+import Newtow from "public/image/new_tow_img.svg";
+import Newthree from "public/image/new_three_img.svg";
+import Newfour from "public/image/new_four_img.svg";
 
 const FriendlyCompany = () => {
   return (
     <main className=" mt-[20px] md:mt-[36px] first-letter:flex flex-col container mx-auto px-4  w-full md:flex-row md:gap-[50px]  md:flex  md:justify-between">
       <div className=" ">
-        {/* noi dung phia duoi */}
-        {/* 
-          // 
-          //  */}
-
         <div className=" flex gap-7">
           <div className="hidden md:block flex-1 relative] gap-7">
             <div className="">
               <Image
                 src={RatioOverlayImage}
-                // width={560}
-                // height={746}
                 alt="Picture of the author"
                 className="!w-[100%] !h-[100%] object-cover"
               />
             </div>
-            {/* 
-              // 
-              //  */}
 
             <div className="hidden absolute inset-0 flex items-end w-[inherit] gap-7">
               <div className="  p-[40px] text-[#919EAB] gap-7">

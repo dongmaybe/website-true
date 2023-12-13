@@ -1,6 +1,6 @@
 import React from "react";
 import BenefitImage from "public/image/benefit_img.svg";
-import logoNameImage from "public/image/LogoName_img.svg";
+import logoNameImage from "public/image/logo_name_img.svg";
 import IconseachImage from "public/image/ic_search_img.svg";
 import Image from "next/image";
 

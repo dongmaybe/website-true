@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 import React from "react";
-import IconFakebookImg from "public/icons/Fakebook_Icon.svg";
-import IconNextImg from "public/icons/Next_Icon.svg";
-import IconTiktokImg from "public/icons/Tiktok_Icon.svg";
-import IconYoutubeImg from "public/icons/Youtube_Icon.svg";
-import IconMapkerkerImg from "public/icons/Mapmarker_Icon.svg";
-import IconMessageImg from "public/icons/Message_Icon.svg";
+import IconfakebookImg from "public/icons/fakebook_icon.svg";
+import IconNextImg from "public/icons/next_icon.svg";
+import IconTiktokImg from "public/icons/tiktok_icon.svg";
+import IconYoutubeImg from "public/icons/youtube_icon.svg";
+import IconMapkerkerImg from "public/icons/mapmarker_icon.svg";
+import IconMessageImg from "public/icons/message_icon.svg";
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="flex  bg-[#FFFFFF] flex-col container mx-auto px-3 md:items-center w-full md:flex-row   md:flex  md:justify-between">
         <div className="pt-[30px]">
           <Image
-            src="/image/Footer/contact_infomation/icon-company.svg"
+            src="/image/Footer/contact_infomation/icon_company_img.svg"
             alt="IMG.svg"
             width={231}
             height={62}
@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <Image
-                    src={IconFakebookImg}
+                    src={IconfakebookImg}
                     width={33}
                     height={33}
                     alt="Picture of the author"
@@ -137,7 +137,7 @@ const Footer = () => {
             </div>
             <div>
               <Image
-                src={IconFakebookImg}
+                src={IconfakebookImg}
                 width={24}
                 height={24}
                 alt="Picture of the author"

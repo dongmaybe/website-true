@@ -2,7 +2,7 @@ import Title from "@/components/Title/Title";
 import React from "react";
 import marketingMarketImg from "public/image/marketing_market_img.svg";
 
-import PhotoRoomImg from "public/image/PhotoRoom_img.svg";
+import PhotoRoomImg from "public/image/photo_room_img.svg";
 import Image from "next/image";
 import Tabs from "@/app/home/components/Tabs";
 

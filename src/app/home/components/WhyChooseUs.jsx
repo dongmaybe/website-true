@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import ChevrondownImg from "public/image/chevrondown_img.svg";
-import illustration_marketing_contactImg from "public/image/illustration_marketing_contactImg.svg";
-import Group_introduct_Img from "public/image/Group_introduct_Img.svg";
-import illustration_benefits_Img from "public/image/illustration_benefits_Img.svg";
+import illustration_marketing_contactImg from "public/image/illustration_marketing_contact_img.svg";
+import Group_introduct_Img from "public/image/group_introduct_img.svg";
+import illustration_benefits_Img from "public/image/illustration_benefits_img.svg";
 const Whychooseus = () => {
   return (
     <main>

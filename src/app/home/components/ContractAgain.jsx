@@ -8,13 +8,13 @@ import "swiper/css/pagination";
 
 import { Pagination } from "swiper/modules";
 import ContactAgainForm from "@/app/home/components/ContactAgainForm";
-import LogoRemoveImg from "public/image/Footer/logo-removebg.svg";
-import LogoTeckImg from "public/image/Footer/logo-comteckImg.svg";
-import LogoSixaxanhImg from "public/image/Footer/logo-sixaxanhImg.svg";
-import LogoKetoanImg from "public/image/Footer/logo-ke-toan-nhu-yImg.svg";
-import LogoEzsharingImg from "public/image/Footer/logoEZsharingImg.svg";
-import LogoNhoImg from "public/image/Logo-Nho.svg";
-import LogoHogoImg from "public/image/Logo-Hogo.svg";
+import LogoRemoveImg from "public/image/Footer/logo_removebg_img.svg";
+import LogoTeckImg from "public/image/Footer/logo_comteck_img.svg";
+import LogoSixaxanhImg from "public/image/Footer/logo_sixaxanh_img.svg";
+import LogoKetoanImg from "public/image/Footer/logo_hercues_img.svg";
+import LogoEzsharingImg from "public/image/Footer/logo_ezsharing_img.svg";
+import LogoNhoImg from "public/image/logo_nho_img.svg";
+import LogoHogoImg from "public/image/logo_hogo_img.svg";
 
 const ContractAgain = () => {
   const fakeData = [
@@ -119,7 +119,7 @@ const ContractAgain = () => {
         {/* Background Image */}
         <div className="h-[624px] ">
           <Image
-            src="/image/Footer/contact_infomation/IMG.svg"
+            src="/image/Footer/contact_infomation/img_img.svg"
             alt="IMG.svg"
             width={1140}
             height={624}
